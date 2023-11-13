@@ -11,7 +11,7 @@ deno install --allow-read --force https://raw.githubusercontent.com/See2et/sende
 ## usage 
 
 ```
-bc <id> <message>
+bc --allow-net
 ```
 
 ## troubleshoot
