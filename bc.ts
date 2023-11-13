@@ -1,4 +1,4 @@
-import { sendWebhook } from "./sender.ts";
+import { sendWebhook } from "./lib/sender.ts";
 
 const id = Deno.args[0];
 const content = Deno.args.reduce((a, b, i) => {
