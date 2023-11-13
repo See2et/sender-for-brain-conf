@@ -3,7 +3,7 @@ export function sendWebhook(id: string, content: string) {
   let avatar_url: string | null = null;
   switch (id) {
     case "se":
-      username = "see2et / しーぜっと";
+      username = "See2et / しーぜっと";
       avatar_url =
         "https://pub-33506eaed9964123b5ace46f04f3d73a.r2.dev/files/04e2c480-e834-4567-8d1e-b12fd698aa0c.webp";
       break;
